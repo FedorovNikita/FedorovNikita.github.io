@@ -1,0 +1,104 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>CONTRIBUTING.md</title>
+      </head>
+      <body>
+        <h1 id="contributing-to-this-project">Contributing to this project</h1>
+<p>Please take a moment to review this document in order to make the contribution
+process easy and effective for everyone involved.</p>
+<p>Following these guidelines helps to communicate that you respect the time of
+the developers managing and developing this open source project. In return,
+they should reciprocate that respect in addressing your issue or assessing
+patches and features.</p>
+<h2 id="using-the-issue-tracker">Using the issue tracker</h2>
+<p>The issue tracker is the preferred channel for <a href="#bugs">bug reports</a>,
+<a href="#features">features requests</a> and <a href="#pull-requests">submitting pull
+requests</a>, but please respect the following restrictions:</p>
+<ul>
+<li><p>Please <strong>do not</strong> use the issue tracker for personal support requests.</p>
+</li>
+<li><p>Please <strong>do not</strong> derail or troll issues. Keep the discussion on topic and
+respect the opinions of others.</p>
+</li>
+</ul>
+<p><a name="bugs"></a></p>
+<h2 id="bug-reports">Bug reports</h2>
+<p>A bug is a <em>demonstrable problem</em> that is caused by the code in the repository.
+Good bug reports are extremely helpful - thank you!</p>
+<p>Guidelines for bug reports:</p>
+<ol>
+<li><p><strong>Use the GitHub issue search</strong> &mdash; check if the issue has already been
+reported.</p>
+</li>
+<li><p><strong>Check if the issue has been fixed</strong> &mdash; try to reproduce it using the
+latest <code>master</code> or development branch in the repository.</p>
+</li>
+<li><p><strong>Isolate the problem</strong> &mdash; make sure that the code in the repository is
+<em>definitely</em> responsible for the issue.</p>
+</li>
+</ol>
+<p>A good bug report shouldn&#39;t leave others needing to chase you up for more
+information. Please try to be as detailed as possible in your report. Examples are
+important, please try to provide them.</p>
+<p><a name="features"></a></p>
+<h2 id="feature-requests">Feature requests</h2>
+<p>Feature requests are welcome. But take a moment to find out whether your idea
+fits with the scope and aims of the project. It&#39;s up to <em>you</em> to make a strong
+case to convince the developers of the merits of this feature. Please
+provide as much detail and context as possible.</p>
+<p><a name="pull-requests"></a></p>
+<h2 id="pull-requests">Pull requests</h2>
+<p>Good pull requests - patches, improvements, new features - are a fantastic
+help. They should remain focused in scope and avoid containing unrelated
+commits.</p>
+<p><strong>Please ask first</strong> before embarking on any significant pull request (e.g.
+implementing features, refactoring code), otherwise you risk spending a lot of
+time working on something that the developers might not want to merge into the
+project.</p>
+<p>Please adhere to the coding conventions used throughout the project (indentation,
+comments, etc.).</p>
+<p>Adhering to the following this process is the best way to get your work
+merged:</p>
+<ol>
+<li><p><a href="http://help.github.com/fork-a-repo/">Fork</a> the repo, clone your fork,
+and configure the remotes:</p>
+<pre><code class="lang-bash"># Clone your fork of the repo into the current directory
+git clone https://github.com/&lt;your-username&gt;/&lt;repo-name&gt;
+# Navigate to the newly cloned directory
+cd &lt;repo-name&gt;
+# Assign the original repo to a remote called &quot;upstream&quot;
+git remote add upstream https://github.com/&lt;upsteam-owner&gt;/&lt;repo-name&gt;
+</code></pre>
+</li>
+<li><p>If you cloned a while ago, get the latest changes from upstream:</p>
+<pre><code class="lang-bash">git checkout &lt;dev-branch&gt;
+git pull upstream &lt;dev-branch&gt;
+</code></pre>
+</li>
+<li><p>Create a new topic branch (off the main project development branch) to
+contain your feature, change, or fix:</p>
+<pre><code class="lang-bash">git checkout -b &lt;topic-branch-name&gt;
+</code></pre>
+</li>
+<li><p>Commit your changes in logical chunks. Please adhere to these <a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">git commit
+message guidelines</a>
+or your code is unlikely be merged into the main project. Use Git&#39;s
+<a href="https://help.github.com/articles/interactive-rebase">interactive rebase</a>
+feature to tidy up your commits before making them public.</p>
+</li>
+<li><p>Locally merge (or rebase) the upstream development branch into your topic branch:</p>
+<pre><code class="lang-bash">git pull [--rebase] upstream &lt;dev-branch&gt;
+</code></pre>
+</li>
+<li><p>Push your topic branch up to your fork:</p>
+<pre><code class="lang-bash">git push origin &lt;topic-branch-name&gt;
+</code></pre>
+</li>
+<li><p><a href="https://help.github.com/articles/using-pull-requests/">Open a Pull Request</a>
+with a clear title and description.</p>
+</li>
+</ol>
+
+      </body>
+    </html>
